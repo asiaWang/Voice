@@ -14,6 +14,9 @@
 		5004B54E1ADBFAED00887885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5004B54D1ADBFAED00887885 /* Images.xcassets */; };
 		5004B5511ADBFAED00887885 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5004B54F1ADBFAED00887885 /* LaunchScreen.xib */; };
 		5004B55D1ADBFAED00887885 /* voiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004B55C1ADBFAED00887885 /* voiceTests.m */; };
+		5004B5671ADBFC3300887885 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5004B5661ADBFC3300887885 /* AudioToolbox.framework */; };
+		5004B5691ADBFC3B00887885 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5004B5681ADBFC3B00887885 /* AVFoundation.framework */; };
+		5004B56B1ADBFC4600887885 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5004B56A1ADBFC4600887885 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		5004B5561ADBFAED00887885 /* voiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5004B55B1ADBFAED00887885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5004B55C1ADBFAED00887885 /* voiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = voiceTests.m; sourceTree = "<group>"; };
+		5004B5661ADBFC3300887885 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5004B5681ADBFC3B00887885 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5004B56A1ADBFC4600887885 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5004B56B1ADBFC4600887885 /* CoreAudio.framework in Frameworks */,
+				5004B5691ADBFC3B00887885 /* AVFoundation.framework in Frameworks */,
+				5004B5671ADBFC3300887885 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,9 @@
 		5004B5341ADBFAED00887885 = {
 			isa = PBXGroup;
 			children = (
+				5004B56A1ADBFC4600887885 /* CoreAudio.framework */,
+				5004B5681ADBFC3B00887885 /* AVFoundation.framework */,
+				5004B5661ADBFC3300887885 /* AudioToolbox.framework */,
 				5004B53F1ADBFAED00887885 /* voice */,
 				5004B5591ADBFAED00887885 /* voiceTests */,
 				5004B53E1ADBFAED00887885 /* Products */,
