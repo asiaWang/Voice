@@ -1,0 +1,10 @@
+*~
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+build/*
+.DS_Store
+bin
+gen
+local.properties
+.project
+.classpath
