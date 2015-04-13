@@ -96,6 +96,7 @@
 - (void)currentRecordingLength{
     if (self.timeInterval == 0) {
         if (self.recorder.isRecording)
+            
             [self.recorder stop];
         [self.timer invalidate];
     }
